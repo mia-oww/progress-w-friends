@@ -9,7 +9,7 @@
 /backend/db.sqlite3
 /backend/env/
 /backend/.env
-
+.env
 # junk files
 .DS_Store
 
