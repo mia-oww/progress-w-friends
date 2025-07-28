@@ -1,3 +1,12 @@
+html, body, #root{
+  background-color: #F3E8EE;
+  color: #2E2C2F;
+  margin: 0;
+  padding: 0;
+  min-height:100vh;
+  font-family: 'Takeover', sans-serif; 
+}
+
 .App {
   text-align: center;
 }
@@ -11,6 +20,14 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+@font-face {
+  font-family: 'Takeover';
+  src: url('./fonts/Takeover.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+
 }
 
 .App-header {
